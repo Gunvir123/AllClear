@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.container{
+    height: 675px;
+    width: 643px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(36, 36, 68);
+    overflow: hidden;
+    border-radius: 34px;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    margin:20px 20px;
+
+}
+
+.top-bar input{
+    height: 30px;
+    width: 500px;
+    border-radius: 25px;
+    padding: 10px 19px;
+    font-size: 19px;
+    font-weight: 400;
+    border: none !important;
+    outline: none;
+    margin-right: 5px;
+    
+}
+
+.search-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.search-icon :hover{
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon img{
+    height: 190px;
+    width: 216px;
+}
+
+
+
+.temp{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.loc{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;  
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hum img{
+    height: 65px;
+    width: 80px;
+    margin-top: 61px;
+    margin-left: 70px
+}
+
+.hum,.wind{
+    display: flex;
+}
+
+.wind img{
+    height: 65px;
+    width: 80px;
+    margin-top: 61px;
+    
+}
+
+.data{
+    margin-top: 61px;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.data2{
+    margin-top: 66px;
+    color: white;
+    font-weight: bold;
+    margin-right: 51px;
+    margin-left: 19px;
+}
